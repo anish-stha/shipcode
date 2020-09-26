@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59ef9100-211f-4776-a4fe-e429657bd37d" name="Default Changelist" comment="" />
+    <list default="true" id="59ef9100-211f-4776-a4fe-e429657bd37d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hoy1QQrOt3u44pDV5wQ8gFSMBB" />
   <component name="ProjectViewState">
@@ -15,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -33,6 +39,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600691524390</updated>
       <workItem from="1600691525509" duration="6858000" />
+      <workItem from="1601130201187" duration="818000" />
     </task>
     <servers />
   </component>
@@ -48,9 +55,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="100" y="100" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600697048742" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1600693773611">
+    <state x="665" y="268" width="589" height="502" key="find.popup" timestamp="1601130440264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600693773611" />
+    <state x="665" y="268" width="589" height="502" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601130440264" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1601130436638">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601130436638" />
   </component>
 </project>
