@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59ef9100-211f-4776-a4fe-e429657bd37d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/choose.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/hear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/idea.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/problem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/solution.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/work-progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner/banner2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner/bradcam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner/bradcam_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner/bradcam_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner/portfolio_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/banner/testmonial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/rear_blue.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/rear_blue.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,12 +40,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,6 +61,11 @@
       <workItem from="1601438962244" duration="1243000" />
       <workItem from="1601610794191" duration="599000" />
       <workItem from="1602335116896" duration="6605000" />
+      <workItem from="1602477695484" duration="456000" />
+      <workItem from="1602938301936" duration="1627000" />
+      <workItem from="1602940013188" duration="1793000" />
+      <workItem from="1602941820041" duration="1795000" />
+      <workItem from="1602943631999" duration="1061000" />
     </task>
     <task id="LOCAL-00001" summary="Refactors for minor improvements according to docs.">
       <created>1601131106527</created>
@@ -92,10 +89,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="558" y="91" width="794" height="850" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601131105736" />
-    <state x="743" y="278" width="424" height="478" key="FileChooserDialogImpl" timestamp="1602338786872">
+    <state x="100" y="99" width="1720" height="840" key="DiffContextDialog" timestamp="1602941976030">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="743" y="278" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602338786872" />
+    <state x="100" y="99" width="1720" height="840" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602941976030" />
+    <state x="743" y="278" width="424" height="478" key="FileChooserDialogImpl" timestamp="1602939323851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="743" y="278" width="424" height="478" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602939323851" />
     <state x="100" y="100" width="1720" height="840" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600697048742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -104,9 +105,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="268" width="589" height="502" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601130440264" />
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1601130436638">
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1602942782982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601130436638" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602942782982" />
   </component>
 </project>

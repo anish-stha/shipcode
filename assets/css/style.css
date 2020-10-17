@@ -523,7 +523,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-    padding: 60px 0;
+    padding: 70px 0;
     overflow: hidden;
 }
 
@@ -609,9 +609,19 @@ section {
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+
+.about .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .about .content h3 {
-    font-weight: 600;
+    max-width: 600px;
+    font-weight: 300;
     font-size: 26px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about .content ul {
@@ -755,6 +765,13 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.about, .services, .technologies, .faq, .contact {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .services .icon-box {
     padding: 30px;
     position: relative;
@@ -898,6 +915,8 @@ section {
 /*--------------------------------------------------------------
 # technologies
 --------------------------------------------------------------*/
+
+
 .technologies .icon-box {
     display: flex;
     justify-content: center;
@@ -1421,6 +1440,7 @@ section {
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
+
 .faq .faq-item {
     margin: 20px 0;
     padding: 20px 0;
@@ -1451,6 +1471,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact .contact-about h3 {
     font-size: 28px;
     margin: 0 0 10px 0;
@@ -1459,6 +1480,11 @@ section {
     font-weight: 700;
     letter-spacing: 1px;
     color: #222222;
+    font-family: "Roboto", sans-serif;
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 84px;
+    margin-bottom: 54px;
 }
 
 .contact .contact-about p {
@@ -1566,7 +1592,7 @@ section {
     font-size: 14px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact button[type="submit"] {
     background: #3498db;
     border: 0;
     padding: 10px 24px;
@@ -1575,7 +1601,7 @@ section {
     border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact button[type="submit"]:hover {
     background: #2383c4;
 }
 
@@ -1799,7 +1825,7 @@ section {
 }
 
 .boat-animation {
-    height: 335px;
+    height: 220px;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -2016,11 +2042,12 @@ section {
 @media (min-width: 440px) {
     .waves {
         width: 1000px;
+        bottom: -50px;
     }
 
     .paperboat {
         width: 100px;
-        bottom: 110px;
+        bottom: 50px;
         left: calc(90px + (100vw - 320px) * 0.49);
     }
 
@@ -2096,7 +2123,7 @@ section {
 
     .paperboat {
         width: 110px;
-        bottom: 162px;
+        bottom: 100px;
         left: calc(100px + (100vw - 320px) * 0.49);
     }
 
@@ -2150,18 +2177,19 @@ section {
 
     .paperboat {
         width: 130px;
-        bottom: 184px;
+        bottom: 130px;
     }
 }
 
 @media (min-width: 1550px) {
     .waves {
         width: 2000px;
+        bottom: 0px;
     }
 
     .paperboat {
         width: 130px;
-        bottom: 215px;
+        bottom: 112px;
         left: calc(100px + (100vw - 320px) * 0.49);
     }
 }
@@ -2169,7 +2197,6 @@ section {
 @media (min-width: 1700px) {
     .waves {
         width: 2300px;
-        bottom: -33px;
     }
 
     .waves--front {
@@ -2192,7 +2219,6 @@ section {
 @media (min-width: 1970px) {
     .waves {
         width: 2600px;
-        bottom: -70px;
     }
 
     .paperboat {
@@ -2247,7 +2273,6 @@ section {
 @media (min-width: 2230px) {
     .waves {
         width: 3000px;
-        bottom: -113px;
     }
 
     .paperboat {
@@ -2424,4 +2449,297 @@ section {
         -webkit-transform: translateX(calc(-54% + 3%));
         transform: translateX(calc(-54% + 3%));
     }
+}
+
+
+/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
+.slider_bg_1 {
+    background-image: url(../img/banner/banner.png);
+}
+
+/* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
+.slider_bg_2 {
+    background-image: url(../img/banner/banner2.png);
+}
+
+/* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
+.slider_area {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* line 23, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
+.slider_area .about_banner.overlay::before {
+    opacity: .5;
+}
+
+
+/* line 144, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
+.overlay {
+    position: relative;
+    z-index: 0;
+}
+
+/* line 148, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
+.overlay::before {
+    position: absolute;
+    content: "";
+    background-color: #1F1F1F;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+
+/* line 160, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
+.overlay2 {
+    position: relative;
+    z-index: 0;
+}
+
+/* line 164, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
+.overlay2::before {
+    position: absolute;
+    content: "";
+    background-color: #2C2C2C;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+/* line 176, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
+.overlay_03 {
+    position: relative;
+    z-index: 0;
+}
+
+/* line 180, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
+.overlay_03::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #2C2C2C;
+    opacity: .6;
+    content: '';
+    z-index: -1;
+}
+
+
+/* line 1, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .footer_top {
+    padding-top: 100px;
+    padding-bottom: 160px;
+    background: #1F1F1F;
+}
+
+@media (max-width: 767px) {
+    /* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+    .footer .footer_top {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+    .footer .footer_top {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* line 6, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+    .footer .footer_top {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* line 22, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links {
+        margin-top: 15px;
+    }
+}
+
+/* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .footer_top .menu_links ul li {
+    display: inline-block;
+    margin-right: 46px;
+}
+
+@media (max-width: 767px) {
+    /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li {
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li {
+        margin-right: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+    .footer .footer_top .menu_links ul li {
+        margin-right: 30px;
+    }
+}
+
+/* line 39, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .footer_top .menu_links ul li a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* line 43, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .footer_top .menu_links ul li a:hover {
+    color: #615CFD;
+}
+
+/* line 51, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .copy-right_text {
+    padding-bottom: 25px;
+    background: #1F1F1F;
+}
+
+/* line 54, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .copy-right_text .footer_border {
+    padding-bottom: 25px;
+    border-top: 1px solid #363636;
+}
+
+/* line 58, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .copy-right_text .copy_right {
+    font-size: 15px;
+    color: #C9C9C9;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+@media (max-width: 767px) {
+    /* line 58, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+    .footer .copy-right_text .copy_right {
+        font-size: 13px;
+    }
+}
+
+/* line 66, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .copy-right_text .copy_right a {
+    color: #615CFD;
+}
+
+/* line 71, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .socail_links {
+    text-align: right;
+}
+
+@media (max-width: 767px) {
+    /* line 71, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+    .footer .socail_links {
+        text-align: left;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* line 71, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+    .footer .socail_links {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
+
+/* line 85, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .socail_links ul li {
+    display: inline-block;
+}
+
+/* line 88, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .socail_links ul li a {
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    line-height: 40px !important;
+    margin-right: 7px;
+    color: #E7F9F9;
+    line-height: 40px !important;
+    border: 1px solid #E7F9F9;
+    font-size: 14px;
+}
+
+/* line 102, ../../Arafath/CL/December/233. Startup/HTML/scss/_footer.scss */
+.footer .socail_links ul li a:hover {
+    color: #fff !important;
+    background: #615CFD;
+    border: 1px solid #615CFD;
+}
+
+
+/* line 10, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
+.get_in_tauch_area .touch_form .single_input input, .get_in_tauch_area .touch_form .single_input textarea {
+    width: 100%;
+    border: 1px solid #C9C9C9;
+    height: 50px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding: 20px 16px;
+    margin-bottom: 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+}
+
+/* line 21, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
+.get_in_tauch_area .touch_form .single_input input::placeholder, .get_in_tauch_area .touch_form .single_input textarea::placeholder {
+    color: #707070;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+/* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
+.get_in_tauch_area .touch_form .single_input input:focus, .get_in_tauch_area .touch_form .single_input textarea:focus {
+    outline: none;
+}
+
+/* line 31, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
+.get_in_tauch_area .touch_form .single_input textarea {
+    height: 148px;
+    resize: none;
+}
+
+/* line 37, ../../Arafath/CL/December/233. Startup/HTML/scss/_getIn_tauch.scss */
+.get_in_tauch_area .touch_form .submit_btn .boxed-btn3 {
+    width: 100%;
+    text-align: center;
 }
