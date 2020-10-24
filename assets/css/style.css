@@ -17,10 +17,16 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+html {
+    background-image: linear-gradient(to bottom, #58c 0%, #3162a3 100%);
+}
+
 body {
     font-family: "Open Sans", sans-serif;
     color: #444444;
-    background: #ffffff;
+    background-image: linear-gradient(0deg, transparent 0%, transparent 9px, rgba(255, 255, 255, 0.2) 9px, rgba(255, 255, 255, 0.2) 10px, transparent 10px, transparent 19px, rgba(255, 255, 255, 0.1) 19px, rgba(255, 255, 255, 0.1) 20px, transparent 20px, transparent 29px, rgba(255, 255, 255, 0.1) 29px, rgba(255, 255, 255, 0.1) 30px, transparent 30px, transparent 39px, rgba(255, 255, 255, 0.1) 39px, rgba(255, 255, 255, 0.1) 40px, transparent 40px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, rgba(255, 255, 255, 0.1) 50px), linear-gradient(-90deg, transparent 0%, transparent 9px, rgba(255, 255, 255, 0.2) 9px, rgba(255, 255, 255, 0.2) 10px, transparent 10px, transparent 19px, rgba(255, 255, 255, 0.1) 19px, rgba(255, 255, 255, 0.1) 20px, transparent 20px, transparent 29px, rgba(255, 255, 255, 0.1) 29px, rgba(255, 255, 255, 0.1) 30px, transparent 30px, transparent 39px, rgba(255, 255, 255, 0.1) 39px, rgba(255, 255, 255, 0.1) 40px, transparent 40px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, rgba(255, 255, 255, 0.1) 50px);
+    background-size: 50px 50px;
 }
 
 a {
@@ -100,19 +106,20 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: flex-start;
     align-content: center;
+    align-items: center;
 }
 
-#header .logo h1 {
-    font-size: 32px;
+#header .logo h1, #header .logo a {
+    font-size: 30px;
     margin: 0;
     padding: 0;
     line-height: 1;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
+    color: #222222;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-    color: #222222;
     text-decoration: none;
 }
 
@@ -386,11 +393,17 @@ h1, h2, h3, h4, h5, h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
+    padding: 0;
     width: 100%;
     height: 100vh;
-    background-size: cover;
-    background: #fffff0 url(../img/doodle-01.png) no-repeat center -120px;
+    background: #90CAF9 url(../img/doodle-01.png) no-repeat center bottom;
     background-size: contain;
+}
+
+#hero .blueprint {
+    width: 100%;
+    background-image: linear-gradient(0deg, transparent 0%, transparent 9px, rgba(255, 255, 255, 0.2) 9px, rgba(255, 255, 255, 0.2) 10px, transparent 10px, transparent 19px, rgba(255, 255, 255, 0.1) 19px, rgba(255, 255, 255, 0.1) 20px, transparent 20px, transparent 29px, rgba(255, 255, 255, 0.1) 29px, rgba(255, 255, 255, 0.1) 30px, transparent 30px, transparent 39px, rgba(255, 255, 255, 0.1) 39px, rgba(255, 255, 255, 0.1) 40px, transparent 40px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, rgba(255, 255, 255, 0.1) 50px), linear-gradient(-90deg, transparent 0%, transparent 9px, rgba(255, 255, 255, 0.2) 9px, rgba(255, 255, 255, 0.2) 10px, transparent 10px, transparent 19px, rgba(255, 255, 255, 0.1) 19px, rgba(255, 255, 255, 0.1) 20px, transparent 20px, transparent 29px, rgba(255, 255, 255, 0.1) 29px, rgba(255, 255, 255, 0.1) 30px, transparent 30px, transparent 39px, rgba(255, 255, 255, 0.1) 39px, rgba(255, 255, 255, 0.1) 40px, transparent 40px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, rgba(255, 255, 255, 0.1) 50px);
+    background-size: 50px 50px;
 }
 
 #hero .catch-phrase {
@@ -436,8 +449,9 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
     display: inline-block;
     padding: 10px 10px;
-    border-bottom-right-radius: 50px;
-    border-top-right-radius: 50px;
+    /*border-bottom-right-radius: 50px;*/
+    /*border-top-right-radius: 50px;*/
+    border-radius: 50px;
     transition: 0.5s;
     color: white;
     border: 2px solid #3498db;
@@ -613,6 +627,13 @@ section {
 # About Us
 --------------------------------------------------------------*/
 
+.about {
+    display: flex;
+    align-items: flex-end;
+    min-height: 50vh;
+    background: linear-gradient(to bottom, #ebf8ff 0%, #fff 100%);
+}
+
 .about .content {
     display: flex;
     justify-content: center;
@@ -768,8 +789,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-
-.about, .services, .technologies, .faq, .contact {
+.services, .technologies, .faq, .contact {
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -1186,12 +1206,15 @@ section {
 :: 9.0 Workflow Area
 ------------------------- */
 
+#workflow {
+    padding: 0;
+}
+
 .workflow-img {
+    height: 500px;
     position: relative;
-    z-index: -10;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background: url("/assets/img/solution.png") no-repeat center bottom;
 }
 
 .workflow-slides-area > .container > div {
@@ -2180,7 +2203,7 @@ section {
 
     .paperboat {
         width: 130px;
-        bottom: 130px;
+        bottom: 20px;
     }
 }
 
