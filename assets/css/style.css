@@ -1213,8 +1213,8 @@ section {
 .workflow-img {
     height: 500px;
     position: relative;
-    background-size: contain;
-    background: url("/assets/img/solution.png") no-repeat center bottom;
+    /*background-size: contain;*/
+    /*background: url("/assets/img/solution.png") no-repeat center bottom;*/
 }
 
 .workflow-slides-area > .container > div {
